@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     tooltip: {
                         callbacks: {
                             label: function(tooltipItem) {
-                                return '$' + tooltipItem.raw;
+                                return '₹' + tooltipItem.raw;
                             }
                         }
                     }
